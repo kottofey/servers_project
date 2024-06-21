@@ -34,6 +34,10 @@
 		font-size: 0.7em;
 		text-align: center;
 
+		&:hover {
+			background-color: $color-hover-darker;
+		}
+
 		&:last-child {
 			border-right: none;
 		}
