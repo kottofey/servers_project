@@ -1,0 +1,51 @@
+@font-face {
+  font-family: 'Fira Code';
+  src: url(../fonts/FiraCode-Light-89b207dfa6dd890c3f41.woff2) format('woff2'),
+    url(../fonts/FiraCode-Light-a81da37f7831691b78df.woff) format("woff");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Fira Code';
+  src: url(../fonts/FiraCode-Regular-bf5ea52fa0094c7f7621.woff2) format('woff2'),
+    url(../fonts/FiraCode-Regular-a25d3a54ca0de3944eb7.woff) format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Fira Code';
+  src: url(../fonts/FiraCode-Medium-1bc138a84f63b384c3f2.woff2) format('woff2'),
+    url(../fonts/FiraCode-Medium-97af194ae4a793b66f40.woff) format("woff");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Fira Code';
+  src: url(../fonts/FiraCode-SemiBold-564932952cfbb676de45.woff2) format('woff2'),
+    url(../fonts/FiraCode-SemiBold-4558fb863ac61e930234.woff) format("woff");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Fira Code';
+  src: url(../fonts/FiraCode-Bold-abe3ab87cff86bb05610.woff2) format('woff2'),
+    url(../fonts/FiraCode-Bold-e3428b597c378e1fdcb0.woff) format("woff");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Fira Code VF';
+  src: url(../fonts/FiraCode-VF-7fef988ad994d5988ff3.woff2) format('woff2-variations'),
+       url(../fonts/FiraCode-VF-d7af67f866f9a5e0a113.woff) format('woff-variations');
+  /* font-weight requires a range: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Fonts/Variable_Fonts_Guide#Using_a_variable_font_font-face_changes */
+  font-weight: 300 700;
+  font-style: normal;
+}
+html{font-family:"Fira Code","Courier New",sans-serif;box-sizing:border-box}*,*:before,*:after{box-sizing:inherit}ul,li,body,p,button,textarea,input,h1,h2,h3{margin:0;padding:0;list-style:none;border:none;font:inherit}a,a:visited{text-decoration:none;display:block}body{height:100vh}.page__wrapper{display:flex;flex-direction:column;align-items:center;margin:0 auto;padding:20px}.page__title{font-size:2em;text-align:center}.page__link{margin:10px 0}.page__link--button{margin:10px;padding:5px;border:1px solid #282726;background-color:#bd8c7d;border-radius:10px;width:150px;box-shadow:#161748 3px 3px 10px 0;color:#282726;text-align:center}.page__link--button:visited{color:#282726}.page__link--button:active{translate:2px 2px;box-shadow:#161748 1px 1px 8px 0}.page--push-left{margin-right:auto}.header{display:flex;flex-direction:column;width:100%}.header__item{margin-bottom:10px;align-self:start}.header__item:first-child{margin-top:10px}.frame{border-bottom:1px solid #161748;display:grid;grid-template-areas:"title title" "line-1-1 line-1-2" "line-2-1 line-2-2" "line-3-1 line-3-2";grid-template-columns:1fr 1fr}.frame:first-of-type{border-top:1px solid #161748}.grid__title{grid-area:title;font-weight:bold;font-size:1.1em}.grid__1-1{grid-area:line-1-1}.grid__1-2{grid-area:line-1-2}.grid__2-1{grid-area:line-2-1}.grid__2-2{grid-area:line-2-2}.grid__3-1{grid-area:line-3-1}.grid__3-2{grid-area:line-3-2}.detailsTable{margin:10px auto;width:100%;display:flex;flex-direction:column}.detailsTable__title{margin:10px auto 10px 0}.detailsTable__row{display:flex;flex-direction:row;border-bottom:1px solid #282726}div:first-of-type+.detailsTable__row{font-weight:600}.detailsTable__row:nth-child(2n+1){background-color:#d9d9e1}.detailsTable__item{border-right:1px solid #282726;width:9.09091%;word-wrap:anywhere;font-size:.8em;text-align:center}.detailsTable__item:last-child{border-right:none}.detailsTable__item--text{display:flex;height:100%;align-items:center;justify-content:center}.detailsTable__searchBar--item{width:9.09091%;margin:2px}.detailsTable__searchBar--item>input,.detailsTable__searchBar--item>select{font-size:.7em;width:100%;padding:3px;border:1px solid #bd8c7d}
+
+/*# sourceMappingURL=style.css.map*/
