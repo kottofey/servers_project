@@ -1,0 +1,57 @@
+.detailsTable {
+	margin: 10px auto;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+
+	&__title {
+		margin: 10px auto 10px 0;
+	}
+
+	&__row {
+		display: flex;
+		flex-direction: row;
+		border-bottom: 1px solid $color-black;
+
+		div:first-of-type + & {
+			font-weight: 600;
+		}
+
+		&:nth-child(2n + 1) {
+			background-color: $Silver;
+		}
+	}
+
+	&__item {
+		border-right: 1px solid $color-black;
+		width: 9.09091%;
+		word-wrap: anywhere;
+		font-size: 0.8em;
+		text-align: center;
+
+		&:last-child {
+			border-right: none;
+		}
+
+		&--text {
+			display: flex;
+			height: 100%;
+			align-items: center;
+			justify-content: center;
+		}
+	}
+
+	&__searchBar {
+		&--item {
+			width: 9.09091%;
+			margin: 2px;
+		}
+		&--item > input,
+		&--item > select {
+			font-size: 0.7em;
+			width: 100%;
+			padding: 3px;
+			border: 1px solid $RoseGold;
+		}
+	}
+}

@@ -1,0 +1,18 @@
+.frame {
+	border-bottom: 1px solid $color-dark-blue;
+
+	//margin-bottom: 15px;
+
+	display: grid;
+	grid-template-areas:
+		'title title'
+		'line-1-1 line-1-2'
+		'line-2-1 line-2-2'
+		'line-3-1 line-3-2';
+
+	grid-template-columns: 1fr 1fr;
+
+	&:first-of-type {
+		border-top: 1px solid $color-dark-blue;
+	}
+}
