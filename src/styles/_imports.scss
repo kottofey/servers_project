@@ -1,9 +1,10 @@
+@import 'base/vars';
 @import 'base/reset';
 @import '../fonts/fira_code.css';
-@import 'base/vars';
 
 @import 'page/page';
 @import 'page/header';
 @import 'page/frame';
 @import 'page/grid';
 @import 'page/detailsTable';
+@import 'page/link';

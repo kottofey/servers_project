@@ -1,6 +1,6 @@
 /*Resetting values*/
 html {
-	font-family: 'Fira Code', 'Courier New', sans-serif;
+	font-family: $font-primary, $font-secondary, $font-backup;
 	box-sizing: border-box;
 }
 
@@ -17,6 +17,7 @@ p,
 button,
 textarea,
 input,
+select,
 h1,
 h2,
 h3 {
@@ -29,6 +30,7 @@ h3 {
 
 a,
 a:visited {
+	color: unset;
 	text-decoration: none;
 	display: block;
 }

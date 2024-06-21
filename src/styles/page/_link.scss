@@ -1,0 +1,35 @@
+.link {
+	margin: 10px 0;
+
+	&--button {
+		padding: 5px;
+		border: 1px solid $color-link-button-border;
+		background-color: $color-link-button-bg-color;
+		border-radius: 6px;
+		width: 200px;
+		height: 50px;
+
+		color: $color-link;
+		text-align: center;
+		align-content: center;
+		font-weight: 600;
+
+		transition: color 0.1s ease-in;
+
+		&:visited {
+			color: $color-link;
+		}
+
+		&:hover {
+			color: white;
+		}
+
+		&:active {
+			translate: 1px 1px;
+		}
+	}
+
+	&--push-left {
+		margin-right: auto;
+	}
+}

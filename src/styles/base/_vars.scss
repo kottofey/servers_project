@@ -1,13 +1,30 @@
-// colors
-$color-black: #282726;
+// Color definitions
+$color-black: #000;
+$color-white: #fff;
+$color-gray: #7a7a7a;
 
-$color-dark-blue: #161748;
-$RoseGold: #bd8c7d;
-$SoftGold: #d1bfa7;
-$Silver: #d9d9e1;
-$Onyx: #49494b;
+$color-light-blue: #4b4ef6;
+$color-orange: orange;
+$color-ground: #1e1e1f;
+$color-hover: #5e5e62;
+
+// Elements colors
+$color-page-bg: $color-black;
+$color-page-font: $color-white;
 
 $color-link: $color-black;
-$color-link-border: $color-black;
-$color-link-bg-color: $RoseGold;
-$color-link-box-shadow: $color-dark-blue;
+$color-link-button-border: $color-black;
+$color-link-button-bg-color: $color-orange;
+$color-link-button-box-shadow: $color-light-blue;
+
+$color-detailsTable-row: $color-ground;
+$color-detailsTable-row-hover: $color-hover;
+$color-detailsTable-border: $color-gray;
+$color-detailsTable-searchBar: $color-gray;
+
+$color-frame-border: $color-light-blue;
+
+// Fonts
+$font-primary: 'Fira Code';
+$font-secondary: 'Arial';
+$font-backup: sans-serif;

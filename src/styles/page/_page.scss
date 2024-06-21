@@ -1,4 +1,7 @@
 .page {
+	background-color: $color-page-bg;
+	color: $color-page-font;
+
 	&__wrapper {
 		display: flex;
 		flex-direction: column;
@@ -11,36 +14,5 @@
 	&__title {
 		font-size: 2em;
 		text-align: center;
-	}
-
-	&__link {
-		margin: 10px 0;
-
-		&--button {
-			margin: 10px;
-			padding: 5px;
-			border: 1px solid $color-link-border;
-			background-color: $color-link-bg-color;
-			border-radius: 10px;
-			width: 150px;
-
-			box-shadow: $color-link-box-shadow 3px 3px 10px 0;
-
-			color: $color-link;
-			text-align: center;
-
-			&:visited {
-				color: $color-link;
-			}
-
-			&:active {
-				translate: 2px 2px;
-				box-shadow: $color-link-box-shadow 1px 1px 8px 0;
-			}
-		}
-	}
-
-	&--push-left {
-		margin-right: auto;
 	}
 }
